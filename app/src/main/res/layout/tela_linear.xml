@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tdNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="24sp" />
+w
+    <TextView
+        android:id="@+id/tdIdade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idade"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etdNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu texto "
+        android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edtAnoNascimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu ano de nascimento"
+            android:inputType="number"
+            android:maxLength="4"/>
+
+      <Button
+          android:id="@+id/btnEnviar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="ENVIAR"
+          android:textStyle="bold"/>
+</LinearLayout>
