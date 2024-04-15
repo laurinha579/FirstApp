@@ -7,10 +7,10 @@
     tools:context=".view.HomeFragment">
 
     <Button
-        android:id="@+id/btnCalculo"
+        android:id="@+id/btnCadastroPessoas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calcular idade"/>
+        android:text="Cadastro de Pessoas"/>
 
     <Button
         android:id="@+id/btnVerifica"

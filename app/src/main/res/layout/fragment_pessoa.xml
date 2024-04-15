@@ -6,19 +6,6 @@
     android:orientation="vertical"
     tools:context=".view.PessoaFragment">
 
-    <TextView
-        android:id="@+id/tdNome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nome"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/tdIdade"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Idade"
-        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/edtNome"
@@ -35,10 +22,18 @@
         android:inputType="number"
         android:maxLength="4"/>
 
+    <EditText
+        android:id="@+id/edtSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu sexo "
+        android:inputType="text"/>
+
     <Button
         android:id="@+id/btnEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="ENVIAR"
         android:textStyle="bold"/>
 
